@@ -76,3 +76,5 @@ missing_summary_numeric <- missing_summary_numeric[order(missing_summary_numeric
 
 print(missing_summary_numeric)
 
+write.csv(df2, "C:/Users/AVISHKA/Desktop/Projects/weather-precipitation-analysis-r/data/raw/clean_data.csv", row.names = FALSE)
+

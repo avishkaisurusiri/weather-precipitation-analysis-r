@@ -1,5 +1,7 @@
 library(tidyverse)
-glimpse(jfk_weather)
+library(readr)
+jfk_weather <- read_csv("data/raw/jfk_weather.csv")
+
 df <- jfk_weather
 library(dplyr)
 summarise(df)
